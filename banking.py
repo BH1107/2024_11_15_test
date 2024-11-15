@@ -1,4 +1,6 @@
 from abc import ABC,abstractmethod
+
+
 class Strategy(ABC):
     @abstractmethod
     def apply_discount(self, amount):
